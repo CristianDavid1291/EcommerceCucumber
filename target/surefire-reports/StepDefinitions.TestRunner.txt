@@ -1,0 +1,104 @@
+-------------------------------------------------------------------------------
+Test set: StepDefinitions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 22.738 sec <<< FAILURE!
+check logout link(Background feature)  Time elapsed: 3.665 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user is navigated to he homepage' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("user is navigated to he homepage")
+public void user_is_navigated_to_he_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on welcome link")
+public void user_clicks_on_welcome_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("logout link is displayed")
+public void logout_link_is_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+verify quick launch toolbar is present(Background feature)  Time elapsed: 2.677 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user is navigated to he homepage' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("user is navigated to he homepage")
+public void user_is_navigated_to_he_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on dashboard link")
+public void user_clicks_on_dashboard_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("quick lanch is displayed")
+public void quick_lanch_is_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login page(Test hooks feature)  Time elapsed: 0.007 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user is on login page hooks' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on login page hooks")
+public void user_is_on_login_page_hooks() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enters valid username and password")
+public void user_enters_valid_username_and_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks on login button")
+public void clicks_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user is navigated to the home page")
+public void user_is_navigated_to_the_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Test Scenario #1(Test hooks feature)  Time elapsed: 0.008 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'we have a Cristian and 123456' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("we have a Cristian and {int}")
+public void we_have_a_cristian_and(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("print Cristian and {int}")
+public void print_cristian_and(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Test Scenario #2(Test hooks feature)  Time elapsed: 0.004 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'we have a David and 123456' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("we have a David and {int}")
+public void we_have_a_david_and(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("print David and {int}")
+public void print_david_and(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

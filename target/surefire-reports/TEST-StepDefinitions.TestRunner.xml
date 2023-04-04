@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="10" failures="0" name="StepDefinitions.TestRunner" time="22.088" errors="5" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.15+8-LTS-149"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.15\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\CRISTIAN\Eclipse\Practicas\EcommerceCucumber"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\CRISTIAN\Eclipse\Practicas\EcommerceCucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.15+8-LTS-149"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\User1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="F:\CRISTIAN\Eclipse\Practicas\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10170831343284206424.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-11.0.15\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\dotnet\;E:\Git\cmd;C:\Program Files\Azure Data Studio\bin;C:\Program Files\dotnet\;C:\Maven\apache-maven-3.8.5\bin;E:\nodejs\;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\mongosh\bin;;C:\Program Files\Docker\Docker\resources\bin;E:\PuTTY\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\User1\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\User1\AppData\Local\Programs\Python\Python310\;C:\Users\User1\AppData\Local\Microsoft\WindowsApps;C:\Users\User1\AppData\Local\GitHubDesktop\bin;C:\Users\User1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User1\AppData\Local\Microsoft\WindowsApps;C:\Users\User1\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\allure-2.13.9\bin;E:\IntelliJ IDEA 2021.3.3\bin;;C:\Program Files\Java\jdk-11.0.15\bin;C:\Users\User1\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\mongosh\bin;;E:\PyCharm Community Edition 2022.3\bin;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\User1"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="windows-1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="User1"/>
+    <property name="java.class.path" value="C:\Users\User1\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\175\data\-93164879\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.15"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.15"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\CRISTIAN\Eclipse\Practicas\EcommerceCucumber\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="m2e.build.project.data.socket.port" value="54020"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Background feature" name="check logout link" time="3.665">
+    <error message="The step &apos;user is navigated to he homepage&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then(&quot;user is navigated to he homepage&quot;)
+public void user_is_navigated_to_he_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user clicks on welcome link&quot;)
+public void user_clicks_on_welcome_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;logout link is displayed&quot;)
+public void logout_link_is_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;user is navigated to he homepage&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then(&quot;user is navigated to he homepage&quot;)
+public void user_is_navigated_to_he_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user clicks on welcome link&quot;)
+public void user_clicks_on_welcome_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;logout link is displayed&quot;)
+public void logout_link_is_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+@tag @smoke
+Scenario: check logout link              # src/test/resources/Features/Background.feature:11
+  Given user is on login page            # StepDefinitions.LoginSteps.user_is_on_login_page()
+  When user enters username and password # StepDefinitions.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)
+  And user clicks on login button        # StepDefinitions.LoginSteps.user_clicks_on_login_button()
+  Then user is navigated to he homepage
+  When user clicks on welcome link
+  Then logout link is displayed
+</system-out>
+    <system-err>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 44511
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+</system-err>
+  </testcase>
+  <testcase classname="Background feature" name="verify quick launch toolbar is present" time="2.677">
+    <error message="The step &apos;user is navigated to he homepage&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then(&quot;user is navigated to he homepage&quot;)
+public void user_is_navigated_to_he_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user clicks on dashboard link&quot;)
+public void user_clicks_on_dashboard_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;quick lanch is displayed&quot;)
+public void quick_lanch_is_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;user is navigated to he homepage&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then(&quot;user is navigated to he homepage&quot;)
+public void user_is_navigated_to_he_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user clicks on dashboard link&quot;)
+public void user_clicks_on_dashboard_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;quick lanch is displayed&quot;)
+public void quick_lanch_is_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+@tag @tag2
+Scenario: verify quick launch toolbar is present # src/test/resources/Features/Background.feature:17
+  Given user is on login page                    # StepDefinitions.LoginSteps.user_is_on_login_page()
+  When user enters username and password         # StepDefinitions.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)
+  And user clicks on login button                # StepDefinitions.LoginSteps.user_clicks_on_login_button()
+  Then user is navigated to he homepage
+  When user clicks on dashboard link
+  Then quick lanch is displayed
+</system-out>
+    <system-err>Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 32142
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+</system-err>
+  </testcase>
+  <testcase classname="Test google search functionality" name="Validate google search" time="5.15"/>
+  <testcase classname="Test hooks feature" name="Login page" time="0.007">
+    <error message="The step &apos;user is on login page hooks&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;user is on login page hooks&quot;)
+public void user_is_on_login_page_hooks() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user enters valid username and password&quot;)
+public void user_enters_valid_username_and_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;clicks on login button&quot;)
+public void clicks_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user is navigated to the home page&quot;)
+public void user_is_navigated_to_the_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;user is on login page hooks&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;user is on login page hooks&quot;)
+public void user_is_on_login_page_hooks() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user enters valid username and password&quot;)
+public void user_enters_valid_username_and_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;clicks on login button&quot;)
+public void clicks_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user is navigated to the home page&quot;)
+public void user_is_navigated_to_the_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+@tag @tag1
+Scenario: Login page                           # src/test/resources/Features/Hooks.feature:23
+  Given user is on login page hooks
+  When user enters valid username and password
+  And clicks on login button
+  Then user is navigated to the home page
+</system-out>
+  </testcase>
+  <testcase classname="Test hooks feature" name="Test Scenario #1" time="0.008">
+    <error message="The step &apos;we have a Cristian and 123456&apos; and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;we have a Cristian and {int}&quot;)
+public void we_have_a_cristian_and(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;print Cristian and {int}&quot;)
+public void print_cristian_and(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;we have a Cristian and 123456&apos; and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;we have a Cristian and {int}&quot;)
+public void we_have_a_cristian_and(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;print Cristian and {int}&quot;)
+public void print_cristian_and(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+@tag @ScenarioOutline
+Scenario Outline: Test Scenario       # src/test/resources/Features/Hooks.feature:36
+  Given we have a Cristian and 123456
+  Then print Cristian and 123456
+</system-out>
+  </testcase>
+  <testcase classname="Test hooks feature" name="Test Scenario #2" time="0.004">
+    <error message="The step &apos;we have a David and 123456&apos; and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;we have a David and {int}&quot;)
+public void we_have_a_david_and(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;print David and {int}&quot;)
+public void print_david_and(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;we have a David and 123456&apos; and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;we have a David and {int}&quot;)
+public void we_have_a_david_and(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;print David and {int}&quot;)
+public void print_david_and(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+@tag @ScenarioOutline
+Scenario Outline: Test Scenario    # src/test/resources/Features/Hooks.feature:37
+  Given we have a David and 123456
+  Then print David and 123456
+</system-out>
+  </testcase>
+  <testcase classname="Feature to demo tags" name="Sample 1" time="0.004"/>
+  <testcase classname="Test Login Functionality" name="Check login with valid credencials #1" time="2.646"/>
+  <testcase classname="Test Login Functionality" name="Check login with valid credencials #2" time="4.729"/>
+  <testcase classname="Test Login Functionality" name="Check login with valid credencials #3" time="3.198"/>
+</testsuite>
